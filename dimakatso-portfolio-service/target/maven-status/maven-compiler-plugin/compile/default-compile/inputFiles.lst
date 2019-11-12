@@ -1,0 +1,10 @@
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/WorkExperience.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/QualificationType.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/Address.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/BaseEntity.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/Institution.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/Application.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/config/SwaggerConfig.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/PersonalInfo.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/ContactDetails.java
+/home/dimakatso/Work/DK/dimakatsoportfolio/dimakatso-portfolio-service/src/main/java/za/co/portfolio/domain/Qualification.java
