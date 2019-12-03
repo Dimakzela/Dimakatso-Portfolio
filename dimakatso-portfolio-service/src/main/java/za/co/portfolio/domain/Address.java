@@ -1,15 +1,16 @@
 package za.co.portfolio.domain;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Data
+@Setter
+@Getter
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @Entity
@@ -24,4 +25,9 @@ public class Address extends BaseEntity {
 
     @Column
     private long areaCode;
+
+    @Override
+    public String toString() {
+        return suburb + ", " + town + ", " + areaCode;
+    }
 }

@@ -1,8 +1,9 @@
 package za.co.portfolio.domain;
 
-import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,7 +14,8 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @EqualsAndHashCode(callSuper = true)
-@Data
+@Getter
+@Setter
 @Entity
 @NoArgsConstructor
 @Table(name = "personal_info")
@@ -21,6 +23,9 @@ public class PersonalInfo extends BaseEntity {
 
     @Column
     private String firstName;
+
+    @Column
+    private String middleName;
 
     @Column
     private String lastName;

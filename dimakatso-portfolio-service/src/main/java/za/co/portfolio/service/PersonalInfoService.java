@@ -1,11 +1,11 @@
 package za.co.portfolio.service;
 
 import za.co.portfolio.domain.PersonalInfo;
-
-import java.util.List;
+import za.co.portfolio.dto.PersonalInfoDto;
 
 
 public interface PersonalInfoService {
     void save(PersonalInfo personalInfo);
-    List<PersonalInfo> get();
+
+    PersonalInfoDto getPersonalInfo();
 }
